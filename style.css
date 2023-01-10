@@ -105,6 +105,7 @@ body {
 	text-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.5);
     cursor: pointer;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+    user-select: none;
 }
 
 .arrow.disabledNav {
