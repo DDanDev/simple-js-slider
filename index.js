@@ -1,4 +1,6 @@
 const arrows = document.getElementsByClassName("arrow");
+const backArrow = document.getElementById("backArrow");
+const forwardArrow = document.getElementById("forwardArrow");
 const slides = document.getElementsByClassName("slide");
 let currentSlide = 0;
 
