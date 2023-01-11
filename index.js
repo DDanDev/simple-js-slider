@@ -5,7 +5,7 @@ const slides = document.getElementsByClassName("slide");
 let currentSlide = 0;
 
 function changeSlide(direction) {
-	direction = direction.target.id;
+	if (typeof direction !== "string") direction = direction.target.id;
 
     //comment or not the line below to enable or disable looping around at the ends of the slides
     if ((direction === "forwardArrow" && currentSlide === slides.length - 1) || (direction === "backArrow" && currentSlide === 0)) return;
